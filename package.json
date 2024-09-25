@@ -1,6 +1,6 @@
 {
   "name": "canyon-report7",
-  "version": "0.0.8-beta-12",
+  "version": "0.0.8-beta-15",
   "description": "My webpack project",
   "main": "./lib/index.js",
   "bin": "./lib/cli.js",
@@ -21,6 +21,7 @@
     "antd": "^5.21.0",
     "axios": "^1.7.7",
     "commander": "^12.1.0",
+    "istanbul-lib-coverage": "^3.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-highlight-words": "^0.20.0",
