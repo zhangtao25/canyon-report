@@ -1,6 +1,6 @@
 {
   "name": "canyon-report7",
-  "version": "0.0.8-beta-9",
+  "version": "0.0.8-beta-10",
   "description": "My webpack project",
   "main": "./lib/index.js",
   "bin": "./lib/cli.js",
@@ -9,7 +9,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./lib/cli.js ccr",
     "build": "webpack --mode=production --node-env=production",
     "dev": "webpack serve"
   },

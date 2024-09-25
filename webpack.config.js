@@ -9,7 +9,7 @@ const config = {
   entry: "./src/main.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "asset/[name].[contenthash].js", // 修改这里，指定输出的 js 文件路径和名称格式
+    filename: "asset/[name].js", // 修改这里，指定输出的 js 文件路径和名称格式
   },
   devServer: {
     // open: true,
