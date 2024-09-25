@@ -18,9 +18,8 @@ const dynamicLoadingSource = (val) => {
       });
     } else {
       const script = document.createElement("script");
-      script.src = `./dynamic-data/${val}.js`;
+      script.src = `dynamic-data/${val}.js`;
       script.onload = () => {
-
         resolve({
           // @ts-ignore
           fileCoverage: window[val].coverage,
