@@ -5,12 +5,12 @@
     "module": "es6",
     "target": "es5",
     "allowJs": true,
-    "jsx": "react", // If you're using React with JSX/TSX
-    "esModuleInterop": true, // Ensures compatibility between CommonJS and ES modules
-    "skipLibCheck": true, // Optional: skips checking of .d.ts files for faster builds
-    "moduleResolution": "node", // Resolves modules in Node.js style
-    "strict": true // Enable all strict type-checking options
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "strict": true
   },
-  "include": ["src/**/*"], // Include all .ts, .tsx, and .js files in src
-  "exclude": ["node_modules"] // Exclude node_modules to avoid unnecessary checks
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
