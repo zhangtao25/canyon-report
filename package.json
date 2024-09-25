@@ -1,8 +1,13 @@
 {
-  "name": "my-webpack-project",
-  "version": "1.0.0",
+  "name": "canyon-report7",
+  "version": "0.0.7",
   "description": "My webpack project",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "bin": "./lib/cli.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
